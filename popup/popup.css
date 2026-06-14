@@ -1,0 +1,215 @@
+body {
+  width: 340px;
+  background: #ffffff;
+  color: #202124;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  border-radius: 12px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+.container {
+  padding: 20px;
+}
+
+/* Header */
+.header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.logo-icon {
+  width: 42px;
+  height: 42px;
+  border-radius: 8px;
+  object-fit: contain;
+}
+
+.title-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1f1f1f;
+  margin: 0 0 4px 0;
+  letter-spacing: -0.01em;
+}
+
+.subtitle {
+  font-size: 13px;
+  color: #5f6368;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.dot-separator {
+  color: #4ac1e0; /* A color from the mockup logo */
+  font-size: 16px;
+  line-height: 1;
+}
+
+.menu-icon {
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 50%;
+  display: flex;
+}
+.menu-icon:hover {
+  background: rgba(0,0,0,0.05);
+}
+
+/* Status Card */
+.status-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: #f8f9fa;
+  padding: 16px;
+  border-radius: 12px;
+  margin-bottom: 16px;
+}
+
+.status-icon-bg {
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.status-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+/* States for Status Icon */
+.state-none .status-icon-bg { background: #fce8e6; }
+.state-none .status-dot { background: #d93025; }
+
+.state-found .status-icon-bg { background: #e8f0fe; }
+.state-found .status-dot { background: #1a73e8; }
+
+.state-active .status-icon-bg { background: #e6f4ea; }
+.state-active .status-dot { background: #1e8e3e; }
+
+.status-text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.status-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #202124;
+  margin: 0;
+}
+
+.status-desc {
+  font-size: 13px;
+  color: #5f6368;
+  margin: 0;
+  line-height: 1.3;
+}
+
+/* Main Button */
+.main-btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 14px;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border: 1px solid transparent;
+}
+
+/* Disabled State */
+.main-btn:disabled {
+  background: #f1f3f4;
+  color: #80868b;
+  border: 1px solid #dadce0;
+  cursor: not-allowed;
+}
+
+/* Enabled/Primary State */
+.main-btn.btn-primary {
+  background: #1a73e8;
+  color: #fff;
+  border: 1px solid #1a73e8;
+}
+.main-btn.btn-primary:hover {
+  background: #1557b0;
+}
+
+/* Active State (Stop) */
+.main-btn.btn-danger {
+  background: #fce8e6;
+  color: #d93025;
+  border: 1px solid #fce8e6;
+}
+.main-btn.btn-danger:hover {
+  background: #f8d8d6;
+}
+
+/* Error Message */
+.error-message {
+  color: #d93025;
+  font-size: 12px;
+  margin-top: 12px;
+  text-align: center;
+  display: none;
+}
+
+/* Footer */
+.footer {
+  margin-top: 24px;
+  padding-top: 20px;
+  border-top: 1px solid #f1f3f4;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.footer-icon {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.footer-text {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.footer-text p {
+  margin: 0;
+  font-size: 13px;
+  color: #5f6368;
+}

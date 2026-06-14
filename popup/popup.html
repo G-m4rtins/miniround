@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <img src="../icons/icon48.png" alt="Logo" class="logo-icon">
+      <div class="title-container">
+        <h1 class="title">MiniRound</h1>
+        <p class="subtitle">Flutuante <span class="dot-separator">•</span> Redimensionável</p>
+      </div>
+      <div class="menu-icon">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="#70757a"><path d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"/></svg>
+      </div>
+    </div>
+
+    <div class="status-card" id="status-card">
+      <div class="status-icon-bg" id="status-icon-bg">
+        <div class="status-dot" id="status-dot"></div>
+      </div>
+      <div class="status-text-container">
+        <h2 class="status-title" id="status-title">Aguarde...</h2>
+        <p class="status-desc" id="status-desc">Analisando a página atual.</p>
+      </div>
+    </div>
+
+    <button id="toggle-btn" class="main-btn" disabled>
+      <svg id="btn-icon" viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+        <!-- Default outline play -->
+        <path d="M8 6.82v10.36c0 .79.87 1.27 1.54.84l8.14-5.18c.62-.39.62-1.29 0-1.69L9.54 5.98C8.87 5.55 8 6.03 8 6.82zM10 8.64L15.27 12 10 15.36V8.64z"/>
+      </svg>
+      <span id="btn-text">Aguarde...</span>
+    </button>
+    <div id="error-msg" class="error-message"></div>
+
+    <div class="footer">
+      <div class="footer-icon">
+        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="#70757a" stroke-width="1.5">
+          <rect x="4" y="4" width="16" height="16" rx="2" stroke-dasharray="3 3"/>
+          <path d="M10 14l4-4m0 0h-3m3 0v3"/>
+        </svg>
+      </div>
+      <div class="footer-text">
+        <p>Arraste pela barra superior</p>
+        <p>Redimensione pelas bordas</p>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="popup.js"></script>
+</body>
+</html>
