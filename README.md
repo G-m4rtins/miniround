@@ -1,7 +1,7 @@
 <div align="center">
   <img src="icons/icon128.png" alt="MiniRound Logo" width="128"/>
 
-  # 💧 MiniRound Flutuante 🟠
+  # MiniRound
 
   **Miniplayer flutuante, arrastável e redimensionável para qualquer vídeo na web.**
 
@@ -14,49 +14,41 @@
 
 ## 🎯 Sobre o Projeto
 
-O **MiniRound** é uma extensão projetada para melhorar sua experiência de consumo de mídia. Com ele, você pode destacar qualquer vídeo de uma página web e transformá-lo em um miniplayer flutuante (Picture-in-Picture aprimorado), permitindo que você navegue em outras abas ou aplicativos enquanto continua assistindo ao seu conteúdo favorito.
+O **MiniRound** é uma extensão de navegador projetada para aprimorar a experiência de consumo de mídia. A extensão permite destacar vídeos de páginas web e transformá-los em um miniplayer flutuante avançado (Picture-in-Picture). Ideal para multitarefas, garantindo que o conteúdo em reprodução continue acessível enquanto o usuário navega em outras abas ou aplicativos.
 
 ---
 
 ## ✨ Recursos Principais
 
-- 🪟 **Janela Flutuante:** Mantenha seus vídeos sempre visíveis em sobreposição às outras abas.
-- 🖱️ **Arrastável:** Posicione o player em qualquer lugar da tela, com total liberdade.
-- 📏 **Redimensionável:** Ajuste o tamanho do player de acordo com a sua necessidade.
-- 🌐 **Compatibilidade Universal:** Funciona na maioria dos sites e reprodutores de vídeo em HTML5.
+- 🪟 **Janela Flutuante (Picture-in-Picture):** Mantém vídeos visíveis em sobreposição às outras janelas.
+- 🖱️ **Arrastável:** Posicionamento livre em qualquer área da tela.
+- 📏 **Redimensionável:** Ajuste flexível do tamanho do player para adequar-se à necessidade do usuário.
+- 🌐 **Ampla Compatibilidade:** Suporte nativo para a maioria dos players de vídeo baseados em HTML5.
 
 ---
 
-## 🎨 Identidade Visual
+## 🚀 Instalação e Uso
 
-O design do MiniRound segue a paleta de cores vibrante e moderna da sua marca:
-- 🩵 **Teal/Ciano (`#00C4CC`)**: Representando a fluidez da navegação e modernidade.
-- 🧡 **Laranja (`#FF8C00`)**: Trazendo energia, destaque e a ação (play) do vídeo.
+A instalação pode ser realizada localmente ativando o "Modo do Desenvolvedor" do seu navegador:
 
----
-
-## 🚀 Como Instalar
-
-Como a extensão está em desenvolvimento/local, você pode instalá-la no seu navegador via "Modo do Desenvolvedor":
-
-1. Faça o download ou clone este repositório para sua máquina local.
-2. Abra o navegador (Google Chrome, Edge ou Brave).
-3. Na barra de endereços, acesse a página de extensões (ex: `chrome://extensions/`).
-4. No canto superior direito, ative o **Modo do desenvolvedor** (Developer mode).
-5. Clique no botão **"Carregar sem compactação"** (Load unpacked) no canto superior esquerdo.
+1. Clone ou faça o download deste repositório para o seu ambiente local.
+2. Abra o seu navegador baseado em Chromium (Google Chrome, Microsoft Edge, Brave, etc.).
+3. Acesse a página de gerenciamento de extensões (ex: `chrome://extensions/`).
+4. Ative a opção **Modo do desenvolvedor** no canto superior direito.
+5. Clique em **"Carregar sem compactação"** (Load unpacked) no menu de ações.
 6. Selecione a pasta raiz do projeto **MiniRound** (`miniround`).
-7. Pronto! A extensão já está instalada e o ícone do MiniRound aparecerá na sua barra de extensões.
+7. A extensão será instalada e estará pronta para uso a partir da barra de extensões do navegador.
 
 ---
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **HTML5 & CSS3:** Para estrutura e estilização do popup e controles.
-- **JavaScript Vanilla:** Lógica da extensão e interação avançada com os vídeos.
-- **Chrome Extensions API:** (Manifest V3) utilizando permissões como `activeTab`, `scripting` e `storage` para gerenciar a injeção do player e salvar preferências.
+- **HTML5 & CSS3:** Estruturação e estilização da interface.
+- **JavaScript Vanilla:** Lógica central, manipulação do DOM e eventos do reprodutor.
+- **Chrome Extensions API (Manifest V3):** Integração com as abas e armazenamento de preferências (`activeTab`, `scripting`, `storage`).
 
 ---
 
 <div align="center">
-  <sub>Criado com dedicação para aprimorar o seu multitarefas. 🩵 + 🧡</sub>
+  <sub>MiniRound — Foco e Produtividade.</sub>
 </div>
